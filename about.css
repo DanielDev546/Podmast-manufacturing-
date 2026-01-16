@@ -1,0 +1,125 @@
+ /* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #000000;
+    color: white;
+    line-height: 1.6;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+    background: #ffffff; /* Matching the white header in your image */
+    color: #000;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4CAF50; /* Your Podmast green */
+}
+
+.logo span {
+    color: #888;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+nav a.active {
+    border-bottom: 2px solid #B0FF7D;
+}
+
+.call-btn {
+    background-color: #1B2E20;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Hero Section */
+.about-hero {
+    text-align: center;
+    padding: 100px 10%;
+    background-color: #000;
+}
+
+.about-hero h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+
+.highlight {
+    color: #B0FF7D;
+}
+
+.about-hero p {
+    max-width: 600px;
+    margin: 0 auto;
+    color: #ccc;
+    font-size: 1.1rem;
+}
+
+/* Mission Card */
+.mission-container {
+    padding: 50px 8%;
+    display: flex;
+    justify-content: center;
+}
+
+.mission-card {
+    background-color: #B0FF7D;
+    color: #000;
+    padding: 60px;
+    border-radius: 40px;
+    max-width: 800px;
+    text-align: center;
+}
+
+.mission-card h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/* Footer (Matching your layout) */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 8% 40px;
+    border-top: 1px solid #333;
+    margin-top: 50px;
+}
+
+.footer-column h3, .footer-column h4 {
+    margin-bottom: 20px;
+}
+
+.footer-column ul {
+    list-style: none;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+    color: #aaa;
+    cursor: pointer;
+}
+
+.footer-column p {
+    color: #aaa;
+    max-width: 250px;
+}
