@@ -19,6 +19,7 @@ body{
     background: white;
     z-index: 1000;
 }
+/* styles */
 .cn{ background: var(--secondary-clr); padding: 0.5rem 1rem; border-radius: 30px;  }
 .cn a { color: white; text-decoration: none; }
 .logo { font-weight: bold; font-size: 1.8rem; background: var(--grad-1); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
