@@ -3,26 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact Us | Podmast</title>
     <link rel="stylesheet" href="contact.css">
 </head>
 <body>
-    
-    <header class="navbar">
-        <div class="logo">Pod<span>mast</span></div>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html" class="active">About</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-        <button class="call-btn">Call now</button>
+     <header class="navbar">
+        <div class="logo">Podmast</div>
+        <input type="checkbox" id="menu-toggle" />
+        <label for="menu-toggle" class="menu-icon">
+            <span></span><span></span><span></span>
+        </label>
+        <nav class="nav-links">
+            <a href="/index.html">Home</a>
+            <a href="/about.html">About</a>
+            <a href="/contact.html">Contact</a> 
+        </nav> 
+        <button class="cn"><a href="#" class="cta">Call now</a></button>
     </header>
     
 <section class="contact-page">
     <div class="contact-wrapper">
         <div class="contact-info">
             <span class="tag">Contact Us</span>
-            <h1>Let’s build the <br><span class="highlight">future</span> together.</h1>
+            <h1>Let’s build the <br><span class="highlight">future</span> together.</h1><br>
             <p>Have a question about our ERP systems or interested in joining our growing team? Drop us a message.</p>
             
             <div class="info-item">
@@ -59,14 +62,39 @@
 
                 <div class="form-group">
                     <label>Your Message</label>
-                    <textarea rows="6" placeholder="How can we help?"></textarea>
+                    <textarea rows="6" id="space" placeholder="How can we help?"></textarea>
+                </div>
+                <div class="modal">
+                    <h2 id="area"></h2>
                 </div>
 
-                <button type="submit" class="submit-btn">Send Message</button>
-            </form>
+                <button onclick="openModal()"  type="submit" class="submit-btn">Send Message</button>
+           
+             <span onclick="closeModal()" class="close">&times;</span>  
+         </form>
         </div>
     </div>
 </section>
-
+<footer class="footer">
+    <div class="footer-column">
+        <h3>Podmast</h3>
+        <p>Our solutions make production faster and cheaper.</p>
+    </div>
+    <div class="footer-column">
+        <h4>Company</h4>
+        <ul>
+            <li>About Us</li>
+            <li>Customers</li>
+            <li>News</li>
+        </ul>
+    </div>
+    <div class="footer-column">
+        <h4>Products</h4>
+        <ul>
+            <li>ERP Systems</li>
+            <li>Quality Management</li>
+        </ul>
+    </div>                  
 </body>
+<script src="contact.js"></script>
 </html>

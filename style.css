@@ -124,7 +124,5 @@ body { font-family: sans-serif; overflow-x: hidden; background: white; }
                 flex-direction: column;    /* 2. Stack icon and text vertically */ justify-content: center;   /* 3. Center vertically (Top to Bottom) */
                 align-items: center;       /* 4. Center horizontally (Left to Right) */text-align: center;        /* 5. Ensure text lines are centered */
                 min-height: 40%; text-align: center;}
-
-
     
 }
